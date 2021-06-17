@@ -1,0 +1,63 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+.product-card-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.product-card {
+  padding: 10px 0px;
+}
+.product-detail {
+  flex: 1 !important;
+}
+.product-detail div {
+  padding: 10px;
+  font-weight: 800;
+}
+.product-detail div span {
+  font-weight: 400;
+}
+.product-detail-image {
+  flex: 1 !important;
+}
+.product-detail-image img {
+  width: 700px;
+}
+
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 2.43;
+  letter-spacing: 0.01071em;
+  padding: 5px 0px;
+}
+.MuiButtonBase-root :hover{
+  background-color: #fff;
+}
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  background-color: red;
+}
